@@ -1,5 +1,5 @@
-first_name = input(user's first name)
-last_name = input(user's last name)
+first_name = input("users first name")
+last_name = input("users last name")
 short_bio = input("bio: ")
 username = f"{first_name[0]} {last_name}"
 print(f"{username.lower()}")
