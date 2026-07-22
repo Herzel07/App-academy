@@ -21,6 +21,7 @@ if num2 == 0:
     modulus = "Cannot divide by zero"
 else:
 # If num2 is not zero, it is safe go ahead and perform these calculations
-   division = num1 / num2 
+   division = num1 / num2
+   division = round(division, 2) 
    floor_division = num1 // num2 
    modulus = num1 % num2
