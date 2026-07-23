@@ -25,3 +25,11 @@ else:
    division = round(division, 2) 
    floor_division = num1 // num2 
    modulus = num1 % num2
+
+print("------ Calculator Results ------")
+print(f"Addition: {addition}")
+print(f"Subtraction: {subtraction}")
+print(f"Multiplication: {multiplication}")
+print(f"Division: {division}")
+print(f"Floor Division: {floor_division}")
+print(f"Modulus: {modulus}")
